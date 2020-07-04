@@ -26,9 +26,10 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 ## Project DOC
 
-1. Login
-2. Semua Data
-3. Detail Data 
-4. Tambah Data
-5. Edit Data 
-6. Hapus Data
+## 1. Login
+Link : 
+## 2. Semua Data
+## 3. Detail Data 
+## 4. Tambah Data
+## 5. Edit Data 
+## 6. Hapus Data
