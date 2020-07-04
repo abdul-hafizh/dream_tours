@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "a0cff14e-9a27-45ae-81a5-c783156b3d53",
+		"name": "dream_tour",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "tambah_data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama_jamaah\": \"test2\",\r\n    \"gender\": \"P\",\r\n    \"telp_jamaah\": \"081322112290\",\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://abdulhafizh.com/api/dream/public/register",
+					"protocol": "http",
+					"host": [
+						"abdulhafizh",
+						"com"
+					],
+					"path": [
+						"api",
+						"dream",
+						"public",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama_jamaah\": \"hafizh\",\r\n    \"password\": \"qwerty\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://abdulhafizh.com/api/dream/public/login",
+					"protocol": "http",
+					"host": [
+						"abdulhafizh",
+						"com"
+					],
+					"path": [
+						"api",
+						"dream",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "semua_data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://abdulhafizh.com/api/dream/public/semua_data?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu",
+					"protocol": "http",
+					"host": [
+						"abdulhafizh",
+						"com"
+					],
+					"path": [
+						"api",
+						"dream",
+						"public",
+						"semua_data"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "detail_data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://abdulhafizh.com/api/dream/public/detail_data/2?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu",
+					"protocol": "http",
+					"host": [
+						"abdulhafizh",
+						"com"
+					],
+					"path": [
+						"api",
+						"dream",
+						"public",
+						"detail_data",
+						"2"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_data",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"nama_jamaah\": \"test2xx\",\r\n    \"gender\": \"P\",\r\n    \"telp_jamaah\": \"001422115523\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://abdulhafizh.com/api/dream/public/edit_data?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu",
+					"protocol": "http",
+					"host": [
+						"abdulhafizh",
+						"com"
+					],
+					"path": [
+						"api",
+						"dream",
+						"public",
+						"edit_data"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hapus_data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://abdulhafizh.com/api/dream/public/hapus_data/5?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu",
+					"protocol": "http",
+					"host": [
+						"abdulhafizh",
+						"com"
+					],
+					"path": [
+						"api",
+						"dream",
+						"public",
+						"hapus_data",
+						"5"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
