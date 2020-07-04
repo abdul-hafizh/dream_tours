@@ -28,11 +28,13 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 ## 1. Login (POST)
 Link : http://abdulhafizh.com/api/dream/public/login
+
 Body :
 {
     "nama_jamaah": "hafizh",
     "password": "qwerty"
 }
+
 Response :
 {
 "message": "berhasil_login",	
@@ -45,6 +47,7 @@ Response :
 
 ## 2. Semua Data (GET)
 Link : http://abdulhafizh.com/api/dream/public/semua_data?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu 
+
 Response : 
 {
 "message": "list_jamaah",
@@ -60,6 +63,7 @@ Response :
 
 ## 3. Detail Data (GET)
 Link : http://abdulhafizh.com/api/dream/public/detail_data/2?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu
+
 Response :
 {
 "message": "detail_jamaah",
@@ -75,6 +79,7 @@ Response :
 
 ## 4. Tambah Data (POST)
 Link : http://abdulhafizh.com/api/dream/public/register 
+
 Body :
 {
 "nama_jamaah": "test2",
@@ -91,6 +96,7 @@ Response :
 
 ## 5. Edit Data (PATCH)
 Link : http://abdulhafizh.com/api/dream/public/edit_data?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu
+
 Body : 
 {
 "id": 5,
@@ -112,6 +118,7 @@ Response :
 
 ## 6. Hapus Data (DELETE)
 Link : http://abdulhafizh.com/api/dream/public/hapus_data/5?token=QsAB0FdZZvKso779Gra2624q0dU5scYVfmsIkP1LF2l40E7CklKJHmxVMTSJl5JsUmnVDV6HAXS9qUhu
+
 Response : 
 {
 "message": "berhasil_hapus_data"
